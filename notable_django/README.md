@@ -25,9 +25,13 @@ python manage.py runserver
 Access the application at http://127.0.0.1:8000.
 Use the following endpoints:
 GET /api/notes/: List all notes
+
 POST /api/notes/: Create a new note
+
 GET /api/notes/<id>/: Retrieve a specific note
+
 PUT /api/notes/<id>/: Update a note
+
 DELETE /api/notes/<id>/: Delete a note
 
 
